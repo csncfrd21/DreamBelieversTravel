@@ -60,7 +60,7 @@ body {
 
   .heroContainer {
     background-image: linear-gradient( rgba(185, 255, 243, 0.5), rgba(31, 12, 117, 0.5) ),
-    url("/images/original/coast.jpeg");
+    url("images/original/coast.jpeg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
