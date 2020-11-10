@@ -58,90 +58,50 @@ body {
 
 
 
-  .heroContainer {
-    background-image: linear-gradient( rgba(185, 255, 243, 0.5), rgba(31, 12, 117, 0.5) ),
-    url("images/original/coast.jpeg");
-    height: 50%;
+  .bg {
+    /* The image used */
+    background-image: url("/images/beach.png");
+    
+  
+    /* Full height */
+    height: 500px; 
+  
+    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 800px;
- }
- .heroCaption {
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 45%;
-    color: white;
- }
- .heroCaption button {
-     margin-top: 50px;
-    margin-left: 150px;
-    border: none;
-    outline: none;
-    display: block;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    opacity: 0.8;
-    font-size: 20px;
-    background-color: rgb(47, 151, 21);
-    text-align: center;
-    cursor: pointer;
+    
+  }
+.shadow-box{
+  background: rgba(0,0,255,0.45);
+}
+.company-name{
+  color: aliceblue;
+  font-size: 6rem;
+  margin-left: 1px;
+  font-family: 'Caveat', cursive;
+
+
+  
+
+}
+  .jen-img{
+    margin-top: 255px;
+    margin-left: 25px;
+    height: 250px;
     border-radius: 50%;
-    border: 2px solid black;
- }
- .heroCaption button:hover {
-    opacity: 1;
- }
- .contact-button {
-    background: #3D94F6;
-    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    color: #FFFFFF;
-    font-family: Open Sans;
-    font-size: 40px;
-    font-weight: 100;
-    padding: 20px;
-    -webkit-box-shadow: 1px 1px 20px 0 #000000;
-    -moz-box-shadow: 1px 1px 20px 0 #000000;
-    box-shadow: 1px 1px 20px 0 #000000;
-    text-shadow: 1px 1px 20px #000000;
-    border: solid #337FED 1px;
-    text-decoration: none;
-    display: block;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 15px;
- }
- 
- .contact-button:hover {
-    border: solid #337FED 1px;
-    background: #1E62D0;
-    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
- }
-
-
- .jen-img{
-     height: 250px;
-     border-radius: 50%;
-     border: 4px solid black;
- }
- .logo-title{
-     font-size: 75px;
-     font-family: 'Indie Flower', cursive;
- }
+    border: 1px solid black;
+  }
+  .jen-name{
+    margin-top: 325px;
+    margin-right: 355px;
+    float: right;
+  text-decoration: underline;
+  }
+  .middle{
+    background: rgba(0,0,255,.065);
+    height: 500px;
+  }
+  .three-sections{
+    margin-top: 50px;
+  }
