@@ -60,7 +60,7 @@ body {
 
   .bg {
     /* The image used */
-    background-image: url("/images/beach.png");
+    background-image: url("../images/beach.png");
     
   
     /* Full height */
