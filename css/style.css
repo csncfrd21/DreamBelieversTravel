@@ -80,10 +80,6 @@ body {
   font-size: 6rem;
   margin-left: 1px;
   font-family: 'Caveat', cursive;
-
-
-  
-
 }
   .jen-img{
     margin-top: 255px;
@@ -94,14 +90,76 @@ body {
   }
   .jen-name{
     margin-top: 325px;
-    margin-right: 355px;
-    float: right;
-  text-decoration: underline;
+    padding-left: 45px;
+    font-family: 'Caveat', cursive;
+    text-decoration: underline;
   }
   .middle{
-    background: rgba(0,0,255,.065);
+    background: linear-gradient(#e66465, #9198e5);
     height: 500px;
   }
   .three-sections{
-    margin-top: 50px;
+    margin-top: 150px;
   }
+
+  .deposite-div{
+    border-right: 1px solid black;
+    text-align: center;
+  }
+  .plane-div{
+    border-right: 1px solid black;
+    text-align: center;
+  }
+  .discount-div{
+    text-align: center;
+    border-right: 1px solid black;
+  }
+  .deposite-img{
+  
+    
+    
+  }
+  @media screen and (max-width: 990px){
+    
+    .middle{
+      background: linear-gradient(#e66465, #9198e5);
+      height: 1500px;
+    }
+    .jen-img{
+      margin-top: 155px;
+      margin-left: 25px;
+      height: 125px;
+      border-radius: 50%;
+      border: 1px solid black;
+    }
+    .jen-name{
+      margin-top: 25px;
+      padding-left: 45px;
+      font-family: 'Caveat', cursive;
+      text-decoration: underline;
+    }
+    .company-name{
+      color: aliceblue;
+      font-size: 3rem;
+      margin-left: 1px;
+      font-family: 'Caveat', cursive;
+      text-align: center;
+    }
+    .deposite-div{
+      border: 1px solid black;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .plane-div{
+      border: 1px solid black;
+      text-align: center;
+      margin-top: 45px;
+    }
+    .discount-div{
+      margin-top: 45px;
+      text-align: center;
+      border: 1px solid black;
+    }
+
+  }
+
